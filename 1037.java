@@ -16,20 +16,16 @@ class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        // Test case 1: Valid boomerang
         int[][] points1 = {{1, 0}, {0, 0}, {0, 1}};
-        System.out.println("Test 1: " + solution.isBoomerang(points1)); // Expected: true
+        System.out.println("Test 1: " + solution.isBoomerang(points1));
 
-        // Test case 2: Not a boomerang (collinear points)
         int[][] points2 = {{0, 0}, {1, 1}, {2, 2}};
-        System.out.println("Test 2: " + solution.isBoomerang(points2)); // Expected: false
+        System.out.println("Test 2: " + solution.isBoomerang(points2));
 
-        // Test case 3: Valid boomerang
         int[][] points3 = {{1, 1}, {1, 0}, {2, 1}};
-        System.out.println("Test 3: " + solution.isBoomerang(points3)); // Expected: true
+        System.out.println("Test 3: " + solution.isBoomerang(points3));
 
-        // Test case 4: Not a boomerang (duplicate points)
         int[][] points4 = {{0, 0}, {0, 0}, {1, 1}};
-        System.out.println("Test 4: " + solution.isBoomerang(points4)); // Expected: false
+        System.out.println("Test 4: " + solution.isBoomerang(points4));
     }
 }
