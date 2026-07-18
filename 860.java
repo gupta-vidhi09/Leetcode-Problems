@@ -33,7 +33,7 @@ class Solution {
         Solution sol = new Solution();
         int[] test1 = {5,5,5,10,20};
         int[] test2 = {5,5,10,10,20};
-        System.out.println(sol.lemonadeChange(test1)); // expected: true
-        System.out.println(sol.lemonadeChange(test2)); // expected: false
+        System.out.println(sol.lemonadeChange(test1));
+        System.out.println(sol.lemonadeChange(test2));
     }
 }
